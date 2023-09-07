@@ -1,0 +1,271 @@
+ *{
+    /* font-family: 'Hanken Grotesk', sans-serif;
+    font-family: 'Lato', sans-serif;  */
+    font-family: 'Outfit', sans-serif;
+    margin: 0px;
+    /* box-sizing: border-box; */
+    padding: 0px;
+    /* scroll-behavior: smooth; */
+}
+/*Mobile*/
+@media (max-width:376px){
+    body{
+        height: 809px;
+        background-color: hsl(217, 54%, 11%);
+    }
+    .main{
+        background-color: hsl(216, 50%, 16%);
+        margin-left: 21px;
+        height: calc(100% - 128px);
+        width: calc(100% - 42px);
+        margin-top: 64px;
+        border-radius: 25px;
+        position: absolute;
+    }
+    .s2{
+        position: relative;
+        margin-left:24px ;
+        margin-top: 322px;
+        width: calc(100% - 48px);
+        height: calc(100% - 533px);
+        display: flex;
+        align-items: flex-end;
+        flex-wrap: wrap;
+        bottom: -97px;
+        color: hsl(0, 0%, 100%);
+    }
+    .head{
+        display: flex;
+        align-items: flex-start;
+        
+    }
+    .iso{
+        margin-top: 10px;
+        width: calc(100%);
+        border-bottom: #637999 1px solid;
+
+
+    }
+    .txt{
+        color: #637999;
+    }
+    .bottom{
+        display: flex;
+    }
+    .sec{
+        display: flex;
+        align-items: baseline;
+        margin-left: 76px;
+    }
+    .sbloc{
+        display: flex;
+    }
+    .info{
+        color: hsl(0, 0%, 100%);
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        position: relative;
+        bottom: -125px;
+        margin-left: 15px;
+
+    }
+    .info .light{
+        margin-right: 5px;
+        color: #637999;
+    }
+    .img2{
+        width: 50px;
+        height: 50px;
+        border: 1px white solid;
+        background-color: aliceblue;
+        display: flex;
+        border-radius: 50%;
+        position: relative;
+        /* align-self: flex-end; */
+        margin-left: 20px;
+        bottom: -124px;
+        background-image:url("../images/image-avatar.png") ;
+        background-position: center;
+        background-size: cover;
+    }
+    .fr{
+        color: #18F5F8;
+    }
+    .img{
+        height: 380px;
+        width:calc(100% - 56px);
+        margin-left:24px ;
+        margin-top: 24px;
+        position: absolute;
+        background-image: url("../images/image-equilibrium.jpg");
+        background-position: center;
+        background-size: cover;
+        border-radius: 25px;
+
+    }
+    .eye{
+        opacity: 0;
+    }
+    .bold:hover , .txt:hover{
+        color:#18F5F8;
+        cursor: pointer;
+    }
+    .attribution { 
+        font-size: 11px;
+        text-align: center;
+        color: aliceblue;
+        position: absolute;
+        bottom: 3px;
+        left: 25px;
+
+    }
+    .attribution a { color: hsl(228, 45%, 44%); 
+    }
+}
+/*Desktop*/
+@media (min-width:376px) {
+    body{
+        width: 1440px;
+        height: 809px;
+        background-color: hsl(217, 54%, 11%);
+    }
+    .main{
+        background-color: hsl(216, 50%, 16%);
+        margin-left: 21px;
+        height: calc(100% - 89px);
+        width: 342px;
+        border-radius: 25px;
+        position: absolute;
+        top: 5%;
+        left: 40%;
+
+    }   
+     .s2{
+        position: relative;
+        margin-left:24px ;
+        margin-top: 322px;
+        width: calc(100% - 40px);
+        height: calc(100% - 456px);
+        display: flex;
+        align-items: flex-end;
+        flex-wrap: wrap;
+        bottom: 21px;
+        color: hsl(0, 0%, 100%);
+    } 
+   /**/  .head{
+        display: flex;
+        align-items: flex-start;
+        
+    }
+   /**/ .iso{
+        margin-top: 10px;
+        width: calc(100%);
+        border-bottom: #637999 1px solid;
+
+
+    }
+  /**/  .txt{
+        color: #637999;
+    }
+  /**/  .bottom{
+        display: flex;
+    }
+/**/    .sec{
+        display: flex;
+        align-items: baseline;
+        margin-left: 76px;
+    }
+    .sbloc{
+        display: flex;
+        height: 95px;
+        width: 100%;
+        position: absolute;
+    }
+    .info{
+        color: hsl(0, 0%, 100%);
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        position: relative;
+        margin-left: 23px;
+    }
+ /**/   .info .light{
+        margin-right: 5px;
+        color: #637999;
+    }
+   .img2{
+        width: 50px;
+        height: 50px;
+        border: 1px white solid;
+        background-color: aliceblue;
+        display: flex;
+        border-radius: 50%;
+        position: relative;
+        margin-left: 20px;
+        bottom: -23px;
+        background-image: url(../images/image-avatar.png);
+        background-position: center;
+        background-size: cover;
+    }
+  /**/  .fr{
+        color: #18F5F8;
+    }
+    .img{
+ /**/       height: 279px;
+        width:calc(100% - 56px);
+        margin-left:24px ;
+        margin-top: 24px;
+        position: absolute;
+        background-image: url("../images/image-equilibrium.jpg");
+        background-position: center;
+        background-size: cover;
+        border-radius: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .overlay{
+ /**/       height: 279px;
+        width:calc(100%);
+        margin-left:24px ;
+        margin-top: 24px;
+        position: absolute;
+        border-radius: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #18F5F8;
+        top: -25px;
+        opacity: 0;
+        transition: .1s ease;
+        left: -23px;
+    }
+    .eye{
+        opacity: 0;
+        color: white;
+        transition: .1s ease;
+
+    }
+    .bold:hover , .head:hover{
+        color:#18F5F8;
+        cursor: pointer;
+    }
+    .attribution { 
+        font-size: 11px;
+        text-align: center;
+        color: aliceblue;
+        position: absolute;
+        bottom: 3px;
+        left: 45%;
+
+    }
+    .attribution a { color: hsl(228, 45%, 44%); 
+    }    
+    .img:hover .overlay{
+        opacity: 0.3;   
+    }
+    .img:hover .eye{
+        opacity: 5;   
+    }
+}
